@@ -23,6 +23,7 @@
     "packages/utils",
     "packages/wallet-account"
   ],
+  "repository": "https://github.com/mikedotexe/near-api-js/tree/meer-api-js",
   "engines": {
     "node": ">=20.15.0"
   },
