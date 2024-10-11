@@ -9,17 +9,17 @@ import {
     Account,
     Connection,
     SignAndSendTransactionOptions,
-} from '@near-js/accounts';
-import { KeyPair, PublicKey } from '@near-js/crypto';
-import { KeyStore } from '@near-js/keystores';
-import { InMemorySigner } from '@near-js/signers';
-import {AccessKeyInfoView, FinalExecutionOutcome} from '@near-js/types';
-import { baseDecode } from '@near-js/utils';
-import { Transaction, Action, SCHEMA, createTransaction } from '@near-js/transactions';
+} from '@meer-js/accounts';
+import { KeyPair, PublicKey } from '@meer-js/crypto';
+import { KeyStore } from '@meer-js/keystores';
+import { InMemorySigner } from '@meer-js/signers';
+import {AccessKeyInfoView, FinalExecutionOutcome} from '@meer-js/types';
+import { baseDecode } from '@meer-js/utils';
+import { Transaction, Action, SCHEMA, createTransaction } from '@meer-js/transactions';
 import { serialize } from 'borsh';
 
 import { Near } from './near.js';
-import {publicKeyFrom} from "@near-js/crypto/src/public_key";
+import {publicKeyFrom} from '@meer-js/crypto/src/public_key";
 
 const LOGIN_WALLET_URL_SUFFIX = '/login/';
 const MULTISIG_HAS_METHOD = 'add_request_and_confirm';

@@ -1,5 +1,5 @@
-import { Signer, InMemorySigner } from '@near-js/signers';
-import { Provider, JsonRpcProvider, FailoverRpcProvider } from '@near-js/providers';
+import { Signer, InMemorySigner } from '@meer-js/signers';
+import { Provider, JsonRpcProvider, FailoverRpcProvider } from '@meer-js/providers';
 import { IntoConnection } from './interface.js';
 
 /**

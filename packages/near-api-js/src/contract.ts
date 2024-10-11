@@ -1,1 +1,1 @@
-export { Contract, ContractMethods } from '@near-js/accounts';
+export { Contract, ContractMethods } from '@meer-js/accounts';

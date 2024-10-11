@@ -1,3 +1,3 @@
-import { exponentialBackoff } from '@near-js/providers';
+import { exponentialBackoff } from '@meer-js/providers';
 
 export default exponentialBackoff;

@@ -1,4 +1,4 @@
-import { KeyPair } from '@near-js/crypto';
+import { KeyPair } from '@meer-js/crypto';
 import { KeyStore } from './keystore.js';
 
 /**

@@ -1,4 +1,4 @@
-import { PublicKey } from '@near-js/crypto';
+import { PublicKey } from '@meer-js/crypto';
 import type { IDelegateAction } from './types.js';
 import { actionCreators } from './action_creators.js';
 import { Action } from './actions.js';

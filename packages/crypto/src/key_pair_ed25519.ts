@@ -1,4 +1,4 @@
-import { baseEncode, baseDecode } from '@near-js/utils';
+import { baseEncode, baseDecode } from '@meer-js/utils';
 import { ed25519 } from '@noble/curves/ed25519';
 import randombytes from 'randombytes';
 

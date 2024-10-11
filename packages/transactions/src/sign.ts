@@ -1,4 +1,4 @@
-import { Signer } from '@near-js/signers';
+import { Signer } from '@meer-js/signers';
 import { sha256 } from '@noble/hashes/sha256';
 
 import {Action, ISignedDelegate, SignedDelegate} from './actions.js';
@@ -13,7 +13,7 @@ import {
 } from './schema.js';
 import {createSignature, ISignatureTx} from './ISignatureTx';
 // can't use import type here because we're referencing the variants
-import { KeyType } from '@near-js/crypto';
+import { KeyType } from '@meer-js/crypto';
 import { IDelegateAction } from "./types.js";
 
 interface MessageSigner {

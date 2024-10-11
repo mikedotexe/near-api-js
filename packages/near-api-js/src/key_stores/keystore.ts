@@ -1,1 +1,1 @@
-export { KeyStore } from '@near-js/keystores';
+export { KeyStore } from '@meer-js/keystores';

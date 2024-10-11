@@ -1,5 +1,5 @@
-import { KeyPair } from '@near-js/crypto';
-import { KeyStore } from '@near-js/keystores';
+import { KeyPair } from '@meer-js/crypto';
+import { KeyStore } from '@meer-js/keystores';
 
 const LOCAL_STORAGE_KEY_PREFIX = 'near-api-js:keystore:';
 

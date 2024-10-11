@@ -1,7 +1,7 @@
-import { PublicKey } from '@near-js/crypto';
-import { FinalExecutionOutcome, TypedError, FunctionCallPermissionView } from '@near-js/types';
-import { actionCreators } from '@near-js/transactions';
-import { Logger } from '@near-js/utils'
+import { PublicKey } from '@meer-js/crypto';
+import { FinalExecutionOutcome, TypedError, FunctionCallPermissionView } from '@meer-js/types';
+import { actionCreators } from '@meer-js/transactions';
+import { Logger } from '@meer-js/utils'
 import unfetch from 'isomorphic-unfetch';
 
 import { SignAndSendTransactionOptions } from './account.js';
@@ -14,7 +14,7 @@ import {
     MULTISIG_GAS,
 } from './constants.js';
 import { MultisigStateStatus } from './types.js';
-import {publicKeyFrom} from "@near-js/crypto/src/public_key";
+import {publicKeyFrom} from '@meer-js/crypto/src/public_key";
 
 const { addKey, deleteKey, deployContract, fullAccessKey, functionCall, functionCallAccessKey } = actionCreators;
 

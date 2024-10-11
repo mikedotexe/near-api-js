@@ -1,4 +1,4 @@
-import { BlockReference } from "@near-js/types";
+import { BlockReference } from '@meer-js/types";
 import type { Connection } from "./types.js";
 
 export interface IntoConnection {

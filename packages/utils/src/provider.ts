@@ -1,4 +1,4 @@
-import { FinalExecutionOutcome } from '@near-js/types';
+import { FinalExecutionOutcome } from '@meer-js/types';
 
 /** @hidden */
 export function getTransactionLastResult(txResult: FinalExecutionOutcome): any {

@@ -3,9 +3,9 @@ import {
     BlockReference,
     CodeResult,
     PositionalArgsError,
-} from '@near-js/types';
+} from '@meer-js/types';
 import { Connection } from './connection.js';
-import { printTxOutcomeLogs } from '@near-js/utils';
+import { printTxOutcomeLogs } from '@meer-js/utils';
 import { ViewFunctionCallOptions } from './interface.js';
 
 function parseJsonFromRawResponse(response: Uint8Array): any {

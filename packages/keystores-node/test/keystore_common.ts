@@ -1,5 +1,5 @@
 import { beforeEach, expect, test } from '@jest/globals';
-import { KeyPairEd25519 } from '@near-js/crypto';
+import { KeyPairEd25519 } from '@meer-js/crypto';
 
 const NETWORK_ID_SINGLE_KEY = 'singlekeynetworkid';
 const ACCOUNT_ID_SINGLE_KEY = 'singlekey_accountid';

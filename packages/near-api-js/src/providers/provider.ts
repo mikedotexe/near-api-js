@@ -1,6 +1,6 @@
 
-export { getTransactionLastResult } from '@near-js/utils';
-export { Provider } from '@near-js/providers';
+export { getTransactionLastResult } from '@meer-js/utils';
+export { Provider } from '@meer-js/providers';
 export {
     IdType,
     LightClientBlockLiteView,
@@ -70,4 +70,4 @@ export {
     EpochValidatorInfo,
     NextEpochValidatorInfo,
     ValidatorStakeView,
-} from '@near-js/types';
+} from '@meer-js/types';

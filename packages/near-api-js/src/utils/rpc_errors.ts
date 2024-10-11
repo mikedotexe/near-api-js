@@ -4,4 +4,4 @@ export {
     formatError,
     getErrorTypeFromErrorMessage,
     ServerError,
-} from '@near-js/utils';
+} from '@meer-js/utils';

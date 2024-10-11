@@ -5,7 +5,7 @@
  * which can be used to interact with multiple [NEAR RPC APIs](https://docs.near.org/api/rpc/introduction).
  * @see {@link "@near-js/types".provider | provider} for a list of request and response types
  */
-import { Logger } from '@near-js/utils';
+import { Logger } from '@meer-js/utils';
 import {
     AccessKeyWithPublicKey,
     BlockId,
@@ -27,10 +27,10 @@ import {
     QueryResponseKind,
     TypedError,
     RpcQueryRequest,
-} from '@near-js/types';
-import { SignedTransaction } from '@near-js/transactions';
+} from '@meer-js/types';
+import { SignedTransaction } from '@meer-js/transactions';
 import { Provider } from './provider.js';
-import { TxExecutionStatus } from '@near-js/types';
+import { TxExecutionStatus } from '@meer-js/types';
 
 /**
  * Client class to interact with the [NEAR RPC API](https://docs.near.org/api/rpc/introduction).

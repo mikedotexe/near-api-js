@@ -1,8 +1,8 @@
 import { beforeEach, describe, expect, it } from '@jest/globals';
-import { KeyPair } from '@near-js/crypto';
-import { InMemoryKeyStore } from '@near-js/keystores';
-import { InMemorySigner } from '@near-js/signers';
-import { actionCreators } from '@near-js/transactions';
+import { KeyPair } from '@meer-js/crypto';
+import { InMemoryKeyStore } from '@meer-js/keystores';
+import { InMemorySigner } from '@meer-js/signers';
+import { actionCreators } from '@meer-js/transactions';
 import localStorage from 'localstorage-memory';
 import { WalletConnection } from '../src';
 

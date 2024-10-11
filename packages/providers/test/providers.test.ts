@@ -1,5 +1,5 @@
 import { afterAll, beforeAll, describe, expect, jest, test } from '@jest/globals';
-import { getTransactionLastResult } from '@near-js/utils';
+import { getTransactionLastResult } from '@meer-js/utils';
 import { Worker } from 'near-workspaces';
 import { TextEncoder } from 'util';
 import { FailoverRpcProvider, JsonRpcProvider } from '../src';

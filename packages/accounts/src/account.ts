@@ -1,5 +1,5 @@
-import { PublicKey } from '@near-js/crypto';
-import { exponentialBackoff } from '@near-js/providers';
+import { PublicKey } from '@meer-js/crypto';
+import { exponentialBackoff } from '@meer-js/providers';
 import {
     actionCreators,
     Action,
@@ -9,7 +9,7 @@ import {
     SignedDelegate,
     SignedTransaction,
     stringifyJsonOrBytes,
-} from '@near-js/transactions';
+} from '@meer-js/transactions';
 import {
     PositionalArgsError,
     FinalExecutionOutcome,
@@ -22,7 +22,7 @@ import {
     AccessKeyInfoView,
     FunctionCallPermissionView,
     BlockReference,
-} from '@near-js/types';
+} from '@meer-js/types';
 import {
     baseDecode,
     baseEncode,
@@ -30,12 +30,12 @@ import {
     parseResultError,
     DEFAULT_FUNCTION_CALL_GAS,
     printTxOutcomeLogsAndFailures,
-} from '@near-js/utils';
+} from '@meer-js/utils';
 
 import { Connection } from './connection.js';
 import { viewFunction, viewState } from './utils.js';
 import { ChangeFunctionCallOptions, IntoConnection, ViewFunctionCallOptions } from './interface.js';
-import {publicKeyFrom} from "@near-js/crypto/src/public_key";
+import {publicKeyFrom} from '@meer-js/crypto/src/public_key";
 
 const {
     addKey,

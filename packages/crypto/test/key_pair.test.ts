@@ -1,5 +1,5 @@
 import { describe, expect, test } from '@jest/globals';
-import { baseEncode } from '@near-js/utils';
+import { baseEncode } from '@meer-js/utils';
 import { sha256 } from '@noble/hashes/sha256';
 import { KeyPair, KeyPairEd25519, PublicKey, KeyPairSecp256k1 } from '../src';
 

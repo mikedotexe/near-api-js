@@ -12,7 +12,7 @@ import {
     Logger,
     parseRpcError,
     ServerError,
-} from '@near-js/utils';
+} from '@meer-js/utils';
 import {
     AccessKeyWithPublicKey,
     BlockId,
@@ -33,16 +33,16 @@ import {
     NodeStatusResult,
     QueryResponseKind,
     TypedError,
-} from '@near-js/types';
+} from '@meer-js/types';
 import {
     encodeTransaction,
     SignedTransaction,
-} from '@near-js/transactions';
+} from '@meer-js/transactions';
 
 import { exponentialBackoff } from './exponential-backoff.js';
 import { Provider } from './provider.js';
 import { ConnectionInfo, fetchJsonRpc } from './fetch_json.js';
-import { TxExecutionStatus } from '@near-js/types';
+import { TxExecutionStatus } from '@meer-js/types';
 
 /** @hidden */
 // Default number of retries before giving up on a request.

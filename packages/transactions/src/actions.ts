@@ -1,5 +1,5 @@
-import {ISignatureCrypto, PublicKey} from '@near-js/crypto';
-import { Enum } from '@near-js/types';
+import {ISignatureCrypto, PublicKey} from '@meer-js/crypto';
+import { Enum } from '@meer-js/types';
 import type { IDelegateAction } from './types.js';
 import { ISignatureTx } from './ISignatureTx';
 

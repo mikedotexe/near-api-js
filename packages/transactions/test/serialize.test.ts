@@ -1,8 +1,8 @@
 import { describe, expect, test } from '@jest/globals';
-import { KeyPair, PublicKey } from '@near-js/crypto';
-import { InMemoryKeyStore } from '@near-js/keystores';
-import { InMemorySigner } from '@near-js/signers';
-import { baseDecode, baseEncode } from '@near-js/utils';
+import { KeyPair, PublicKey } from '@meer-js/crypto';
+import { InMemoryKeyStore } from '@meer-js/keystores';
+import { InMemorySigner } from '@meer-js/signers';
+import { baseDecode, baseEncode } from '@meer-js/utils';
 import { deserialize, serialize } from 'borsh';
 import * as fs from 'fs';
 

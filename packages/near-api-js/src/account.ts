@@ -6,4 +6,4 @@ export {
     FunctionCallOptions,
     ChangeFunctionCallOptions,
     ViewFunctionCallOptions,
-} from '@near-js/accounts';
+} from '@meer-js/accounts';

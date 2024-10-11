@@ -1,4 +1,4 @@
-import { KeyType } from '@near-js/crypto';
+import { KeyType } from '@meer-js/crypto';
 
 interface ED25519Signature {
   keyType: KeyType.ED25519;
@@ -35,8 +35,8 @@ export function createSignature(signature: {
 }
 
 
-// import { KeyType } from '@near-js/crypto';
-// import { Enum } from '@near-js/types';
+// import { KeyType } from '@meer-js/crypto';
+// import { Enum } from '@meer-js/types';
 //
 // class ED25519Signature { keyType: KeyType = KeyType.ED25519; data: Uint8Array; }
 // class SECP256K1Signature { keyType: KeyType = KeyType.SECP256K1; data: Uint8Array; }

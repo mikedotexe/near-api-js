@@ -1,1 +1,1 @@
-export { Connection } from '@near-js/accounts';
+export { Connection } from '@meer-js/accounts';

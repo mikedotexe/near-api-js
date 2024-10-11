@@ -1,5 +1,5 @@
 import { beforeAll, beforeEach, expect, jest, test } from '@jest/globals';
-import { KeyPair } from '@near-js/crypto';
+import { KeyPair } from '@meer-js/crypto';
 
 import { createAccount, deployContract, generateUniqueString, networkId, setUpTestConnection } from './test-utils';
 

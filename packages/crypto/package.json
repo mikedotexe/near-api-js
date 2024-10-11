@@ -1,6 +1,6 @@
 {
-  "name": "@near-js/crypto",
-  "version": "1.4.0",
+  "name": "@meer-js/crypto",
+  "version": "6.6.6",
   "description": "Abstractions around NEAR-compatible elliptical curves and cryptographic keys",
   "types": "./dist/esm/crypto/src/index.d.ts",
   "main": "./dist/cjs/crypto/src/index.js",
@@ -18,8 +18,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@near-js/types": "workspace:*",
-    "@near-js/utils": "workspace:*",
+    "@meer-js/types": "workspace:*",
+    "@meer-js/utils": "workspace:*",
     "@noble/curves": "1.2.0",
     "borsh": "1.0.0",
     "cbor-js": "^0.1.0",

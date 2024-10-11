@@ -1,4 +1,4 @@
-import { TypedError } from '@near-js/types';
+import { TypedError } from '@meer-js/types';
 import { exponentialBackoff } from './exponential-backoff.js';
 import unfetch from 'isomorphic-unfetch';
 

@@ -1,8 +1,8 @@
 import { beforeAll, describe, expect, jest, test } from '@jest/globals';
-import { parseNearAmount } from '@near-js/utils';
-import { KeyPair } from '@near-js/crypto';
-import { InMemorySigner } from '@near-js/signers';
-import { actionCreators } from '@near-js/transactions';
+import { parseNearAmount } from '@meer-js/utils';
+import { KeyPair } from '@meer-js/crypto';
+import { InMemorySigner } from '@meer-js/signers';
+import { actionCreators } from '@meer-js/transactions';
 import * as fs from 'fs';
 import semver from 'semver';
 

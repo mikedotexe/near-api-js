@@ -1,4 +1,4 @@
-import { KeyPair } from '@near-js/crypto';
+import { KeyPair } from '@meer-js/crypto';
 
 /**
  * KeyStores are passed to {@link near!Near} via {@link near!NearConfig}

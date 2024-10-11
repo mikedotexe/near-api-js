@@ -1,1 +1,1 @@
-export { Logger } from '@near-js/utils';
+export { Logger } from '@meer-js/utils';

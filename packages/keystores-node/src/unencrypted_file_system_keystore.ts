@@ -1,5 +1,5 @@
-import { KeyPair } from '@near-js/crypto';
-import { KeyStore } from '@near-js/keystores';
+import { KeyPair } from '@meer-js/crypto';
+import { KeyStore } from '@meer-js/keystores';
 import fs from 'fs';
 import path from 'path';
 import { promisify as _promisify } from 'util';

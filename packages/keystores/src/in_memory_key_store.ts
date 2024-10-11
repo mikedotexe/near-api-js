@@ -1,6 +1,6 @@
-import { KeyPair } from '@near-js/crypto';
+import { KeyPair } from '@meer-js/crypto';
 import { KeyStore } from './keystore.js';
-import { KeyPairString } from '@near-js/crypto';
+import { KeyPairString } from '@meer-js/crypto';
 
 /**
  * Simple in-memory keystore for mainly for testing purposes.

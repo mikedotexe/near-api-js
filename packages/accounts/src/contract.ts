@@ -1,5 +1,5 @@
-import { getTransactionLastResult, Logger } from "@near-js/utils";
-import { ArgumentTypeError, PositionalArgsError } from "@near-js/types";
+import { getTransactionLastResult, Logger } from '@meer-js/utils";
+import { ArgumentTypeError, PositionalArgsError } from '@meer-js/types";
 import { LocalViewExecution } from "./local-view-execution/index.js";
 import validator from "is-my-json-valid";
 import depd from "depd";

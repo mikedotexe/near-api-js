@@ -21,12 +21,12 @@ export {
     encodeSignedDelegate,
     encodeDelegateAction,
     encodeTransaction
-} from '@near-js/transactions';
+} from '@meer-js/transactions';
 
-export type { ISignatureTx } from '@near-js/transactions';
+export type { ISignatureTx } from '@meer-js/transactions';
 
-import { PublicKey } from '@near-js/crypto';
-import { AccessKey, actionCreators, stringifyJsonOrBytes } from '@near-js/transactions';
+import { PublicKey } from '@meer-js/crypto';
+import { AccessKey, actionCreators, stringifyJsonOrBytes } from '@meer-js/transactions';
 
 export const addKey = (publicKey: PublicKey, accessKey: AccessKey) => actionCreators.addKey(publicKey, accessKey);
 export const createAccount = () => actionCreators.createAccount();

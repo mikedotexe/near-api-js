@@ -3,10 +3,10 @@ export {
     ConflictingOptions,
     UnknownArgumentError,
     UnsupportedSerializationError,
-} from '@near-js/accounts';
+} from '@meer-js/accounts';
 export {
     ArgumentTypeError,
     ErrorContext,
     PositionalArgsError,
     TypedError,
-} from '@near-js/types';
+} from '@meer-js/types';

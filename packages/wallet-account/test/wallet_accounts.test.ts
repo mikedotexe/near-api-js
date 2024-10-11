@@ -1,9 +1,9 @@
 import { afterEach, beforeEach, describe, expect, it } from '@jest/globals';
-import { KeyPair, PublicKey } from '@near-js/crypto';
-import { InMemoryKeyStore } from '@near-js/keystores';
-import { baseDecode } from '@near-js/utils';
-import { InMemorySigner } from '@near-js/signers';
-import { actionCreators, createTransaction, SCHEMA } from '@near-js/transactions';
+import { KeyPair, PublicKey } from '@meer-js/crypto';
+import { InMemoryKeyStore } from '@meer-js/keystores';
+import { baseDecode } from '@meer-js/utils';
+import { InMemorySigner } from '@meer-js/signers';
+import { actionCreators, createTransaction, SCHEMA } from '@meer-js/transactions';
 import { deserialize } from 'borsh';
 import localStorage from 'localstorage-memory';
 import * as url from 'url';

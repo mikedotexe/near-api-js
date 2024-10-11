@@ -1,6 +1,6 @@
 {
-  "name": "@near-js/keystores",
-  "version": "0.2.0",
+  "name": "@meer-js/keystores",
+  "version": "6.6.6",
   "description": "Key storage and management implementations",
   "types": "./dist/esm/keystores/src/index.d.ts",
   "main": "./dist/cjs/keystores/src/index.js",
@@ -20,9 +20,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@near-js/crypto": "workspace:*",
-    "@near-js/types": "workspace:*",
-    "@near-js/utils": "workspace:*"
+    "@meer-js/crypto": "workspace:*",
+    "@meer-js/types": "workspace:*",
+    "@meer-js/utils": "workspace:*"
   },
   "devDependencies": {
     "@jest/globals": "^29.7.0",
@@ -41,9 +41,5 @@
       "require": "./dist/cjs/keystores/src/index.js",
       "import": "./dist/esm/keystores/src/index.js"
     }
-  },
-  "resolutions": {
-    "@near-js/crypto": "*",
-    "near-api-js": "*"
   }
 }

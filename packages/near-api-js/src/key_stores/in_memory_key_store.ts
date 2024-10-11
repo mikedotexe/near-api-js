@@ -1,1 +1,1 @@
-export { InMemoryKeyStore } from '@near-js/keystores';
+export { InMemoryKeyStore } from '@meer-js/keystores';

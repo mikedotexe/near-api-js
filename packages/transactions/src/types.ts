@@ -1,4 +1,4 @@
-import { PublicKey } from '@near-js/crypto';
+import { PublicKey } from '@meer-js/crypto';
 
 // We use this to avoid circular dependencies
 // when importing the Action class directly

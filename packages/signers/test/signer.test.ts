@@ -1,5 +1,5 @@
 import { expect, test } from '@jest/globals';
-import { InMemoryKeyStore } from '@near-js/keystores';
+import { InMemoryKeyStore } from '@meer-js/keystores';
 import { TextEncoder } from 'util';
 
 import { InMemorySigner } from '../src';

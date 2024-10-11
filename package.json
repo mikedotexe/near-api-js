@@ -1,5 +1,5 @@
 {
-  "name": "@near-js/monorepo",
+  "name": "@meer-js/monorepo",
   "scripts": {
     "build": "yarn workspaces foreach --all run build",
     "build:exclude": "yarn workspaces foreach --exclude <excluded-package> run build",

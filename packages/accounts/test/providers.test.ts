@@ -1,6 +1,6 @@
 import { beforeAll, describe, expect, jest, test } from '@jest/globals';
-import { KeyPair } from '@near-js/crypto';
-import { ErrorMessages } from '@near-js/utils';
+import { KeyPair } from '@meer-js/crypto';
+import { ErrorMessages } from '@meer-js/utils';
 import base58 from 'bs58';
 
 import { createAccount, deployContract, generateUniqueString, setUpTestConnection, sleep, waitFor } from './test-utils';

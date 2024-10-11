@@ -1,5 +1,5 @@
-import { PublicKey } from '@near-js/crypto';
-import type { ISignatureCrypto } from '@near-js/crypto';
+import { PublicKey } from '@meer-js/crypto';
+import type { ISignatureCrypto } from '@meer-js/crypto';
 import { deserialize, serialize, Schema } from 'borsh';
 
 import { Action, SignedDelegate } from './actions.js';
@@ -292,7 +292,7 @@ export const SCHEMA = {
   },
 };
 
-// import { PublicKey } from '@near-js/crypto';
+// import { PublicKey } from '@meer-js/crypto';
 // import { deserialize, serialize, Schema } from 'borsh';
 //
 // import {

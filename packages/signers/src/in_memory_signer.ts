@@ -1,6 +1,6 @@
-import { KeyPair, PublicKey, KeyType } from '@near-js/crypto';
-import type { ISignatureCrypto } from '@near-js/crypto';
-import { InMemoryKeyStore, KeyStore } from '@near-js/keystores';
+import { KeyPair, PublicKey, KeyType } from '@meer-js/crypto';
+import type { ISignatureCrypto } from '@meer-js/crypto';
+import { InMemoryKeyStore, KeyStore } from '@meer-js/keystores';
 import { sha256 } from '@noble/hashes/sha256';
 
 import { Signer } from './signer.js';

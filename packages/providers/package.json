@@ -1,6 +1,6 @@
 {
-  "name": "@near-js/providers",
-  "version": "1.0.0",
+  "name": "@meer-js/providers",
+  "version": "6.6.6",
   "description": "Library of implementations for interfacing with the NEAR blockchain",
   "types": "./dist/esm/providers/src/index.d.ts",
   "main": "./dist/cjs/providers/src/index.js",
@@ -20,9 +20,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@near-js/transactions": "workspace:*",
-    "@near-js/types": "workspace:*",
-    "@near-js/utils": "workspace:*",
+    "@meer-js/transactions": "workspace:*",
+    "@meer-js/types": "workspace:*",
+    "@meer-js/utils": "workspace:*",
     "borsh": "1.0.0",
     "exponential-backoff": "^3.1.1",
     "isomorphic-unfetch": "^3.1.0"

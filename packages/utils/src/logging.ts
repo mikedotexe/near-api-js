@@ -1,4 +1,4 @@
-import { FinalExecutionOutcome } from '@near-js/types';
+import { FinalExecutionOutcome } from '@meer-js/types';
 
 import { parseRpcError } from './errors/index.js';
 import { Logger } from './logger/index.js';

@@ -1,1 +1,1 @@
-export { FailoverRpcProvider } from '@near-js/providers';
+export { FailoverRpcProvider } from '@meer-js/providers';

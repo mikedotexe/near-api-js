@@ -1,5 +1,5 @@
 import { afterEach, beforeAll, describe, expect, jest, test } from '@jest/globals';
-import { PositionalArgsError } from '@near-js/types';
+import { PositionalArgsError } from '@meer-js/types';
 
 import { Contract, Account } from '../src';
 import { deployContractGuestBook, generateUniqueString, setUpTestConnection }  from './test-utils';

@@ -1,4 +1,4 @@
-import { CurrentEpochValidatorInfo, NextEpochValidatorInfo } from '@near-js/types';
+import { CurrentEpochValidatorInfo, NextEpochValidatorInfo } from '@meer-js/types';
 import depd from 'depd';
 import { sortBigIntAsc } from './utils.js';
 

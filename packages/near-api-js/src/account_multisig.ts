@@ -9,4 +9,4 @@ export {
     MULTISIG_CONFIRM_METHODS,
     MultisigDeleteRequestRejectionError,
     MultisigStateStatus,
-} from '@near-js/accounts';
+} from '@meer-js/accounts';

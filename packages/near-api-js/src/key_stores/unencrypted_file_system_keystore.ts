@@ -1,1 +1,1 @@
-export { readKeyFile, UnencryptedFileSystemKeyStore } from '@near-js/keystores-node';
+export { readKeyFile, UnencryptedFileSystemKeyStore } from '@meer-js/keystores-node';

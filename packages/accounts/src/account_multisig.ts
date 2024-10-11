@@ -1,6 +1,6 @@
-import { Action, actionCreators } from '@near-js/transactions';
-import { FinalExecutionOutcome } from '@near-js/types';
-import { Logger } from '@near-js/utils';
+import { Action, actionCreators } from '@meer-js/transactions';
+import { FinalExecutionOutcome } from '@meer-js/types';
+import { Logger } from '@meer-js/utils';
 
 import { Account, SignAndSendTransactionOptions } from './account.js';
 import { Connection } from './connection.js';

@@ -1,4 +1,4 @@
-import { PublicKey } from '@near-js/crypto';
+import { PublicKey } from '@meer-js/crypto';
 
 import { Action } from './actions.js';
 import {ITransaction, Transaction} from './schema.js';

@@ -1,1 +1,1 @@
-export { Enum } from '@near-js/types';
+export { Enum } from '@meer-js/types';

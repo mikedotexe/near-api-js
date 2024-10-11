@@ -1,5 +1,5 @@
 import { beforeAll, describe, expect, it } from '@jest/globals';
-import { KeyPairEd25519 } from '@near-js/crypto';
+import { KeyPairEd25519 } from '@meer-js/crypto';
 import * as fs from 'fs';
 import * as path from 'path';
 import { rimraf } from 'rimraf';

@@ -3,4 +3,4 @@ export {
     findSeatPrice,
     ChangedValidatorInfo,
     EpochValidatorsDiff,
-} from '@near-js/utils';
+} from '@meer-js/utils';

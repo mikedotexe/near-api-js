@@ -1,5 +1,5 @@
 import { beforeEach, expect, test } from '@jest/globals';
-import { KeyPairEd25519 } from '@near-js/crypto';
+import { KeyPairEd25519 } from '@meer-js/crypto';
 import LocalStorageMemory from 'localstorage-memory';
 
 import { MultiContractBrowserLocalStorageKeyStore } from '../src';

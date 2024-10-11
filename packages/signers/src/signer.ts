@@ -1,5 +1,5 @@
-import { PublicKey, KeyType } from '@near-js/crypto';
-import type { ISignatureCrypto } from '@near-js/crypto';
+import { PublicKey, KeyType } from '@meer-js/crypto';
+import type { ISignatureCrypto } from '@meer-js/crypto';
 
 /**
  * General signing interface, can be used for in memory signing, RPC singing, external wallet, HSM, etc.

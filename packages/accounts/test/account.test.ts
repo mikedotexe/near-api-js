@@ -1,8 +1,8 @@
 import { afterAll, beforeAll, beforeEach, describe, expect, jest, test } from '@jest/globals';
-import { KeyType } from '@near-js/crypto';
-import { getTransactionLastResult, Logger } from '@near-js/utils';
-import { actionCreators } from '@near-js/transactions';
-import { BlockResult, TypedError } from '@near-js/types';
+import { KeyType } from '@meer-js/crypto';
+import { getTransactionLastResult, Logger } from '@meer-js/utils';
+import { actionCreators } from '@meer-js/transactions';
+import { BlockResult, TypedError } from '@meer-js/types';
 import * as fs from 'fs';
 
 import { Account, Contract } from '../src';

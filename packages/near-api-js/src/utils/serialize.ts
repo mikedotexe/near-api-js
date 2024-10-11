@@ -7,4 +7,4 @@ export {
 export {
     baseEncode as base_encode,
     baseDecode as base_decode,
-} from '@near-js/utils';
+} from '@meer-js/utils';

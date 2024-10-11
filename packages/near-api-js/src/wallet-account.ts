@@ -1,1 +1,1 @@
-export { ConnectedWalletAccount, WalletConnection } from '@near-js/wallet-account';
+export { ConnectedWalletAccount, WalletConnection } from '@meer-js/wallet-account';

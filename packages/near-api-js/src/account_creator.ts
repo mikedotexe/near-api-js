@@ -1,1 +1,1 @@
-export { AccountCreator, LocalAccountCreator, UrlAccountCreator } from '@near-js/accounts';
+export { AccountCreator, LocalAccountCreator, UrlAccountCreator } from '@meer-js/accounts';

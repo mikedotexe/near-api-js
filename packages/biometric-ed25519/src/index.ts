@@ -3,8 +3,8 @@ import { ed25519 } from '@noble/curves/ed25519';
 import { sha256 } from '@noble/hashes/sha256';
 import { Buffer } from 'buffer';
 import asn1 from 'asn1-parser';
-import { KeyPair } from '@near-js/crypto';
-import { baseEncode } from '@near-js/utils';
+import { KeyPair } from '@meer-js/crypto';
+import { baseEncode } from '@meer-js/utils';
 import {
     validateUsername,
     preformatMakeCredReq,
@@ -18,7 +18,7 @@ import {
 } from './utils.js';
 import { Fido2 } from './fido2.js';
 import type { AssertionResponse } from './index.d.js';
-import { KeyPairString } from '@near-js/crypto';
+import { KeyPairString } from '@meer-js/crypto';
 
 const CHALLENGE_TIMEOUT_MS = 90 * 1000;
 const RP_NAME = 'NEAR_API_JS_WEBAUTHN';

@@ -1335,38 +1335,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@near-js/accounts@npm:0.1.4":
-  version: 0.1.4
-  resolution: "@near-js/accounts@npm:0.1.4"
-  dependencies:
-    "@near-js/crypto": "npm:0.0.5"
-    "@near-js/providers": "npm:0.0.7"
-    "@near-js/signers": "npm:0.0.5"
-    "@near-js/transactions": "npm:0.2.1"
-    "@near-js/types": "npm:0.0.4"
-    "@near-js/utils": "npm:0.0.4"
-    ajv: "npm:^8.11.2"
-    ajv-formats: "npm:^2.1.1"
-    bn.js: "npm:5.2.1"
-    borsh: "npm:^0.7.0"
-    depd: "npm:^2.0.0"
-    near-abi: "npm:0.1.1"
-  checksum: 10c0/fc9771929dd6cda7841ca2af8cd577ad9bc267107683e5dad4e943d557c0d005417da651d8197a6912898a05ba3001a9439d9b70be211a855f9ff8059b9a57cd
-  languageName: node
-  linkType: hard
-
-"@near-js/accounts@workspace:*, @near-js/accounts@workspace:packages/accounts":
+"@meer-js/accounts@workspace:*, @meer-js/accounts@workspace:packages/accounts":
   version: 0.0.0-use.local
-  resolution: "@near-js/accounts@workspace:packages/accounts"
+  resolution: "@meer-js/accounts@workspace:packages/accounts"
   dependencies:
     "@jest/globals": "npm:^29.7.0"
-    "@near-js/crypto": "workspace:*"
-    "@near-js/keystores": "workspace:*"
-    "@near-js/providers": "workspace:*"
-    "@near-js/signers": "workspace:*"
-    "@near-js/transactions": "workspace:*"
-    "@near-js/types": "workspace:*"
-    "@near-js/utils": "workspace:*"
+    "@meer-js/crypto": "workspace:*"
+    "@meer-js/keystores": "workspace:*"
+    "@meer-js/providers": "workspace:*"
+    "@meer-js/signers": "workspace:*"
+    "@meer-js/transactions": "workspace:*"
+    "@meer-js/types": "workspace:*"
+    "@meer-js/utils": "workspace:*"
     "@noble/hashes": "npm:1.3.3"
     "@types/json-schema": "npm:^7.0.15"
     "@types/node": "npm:^22.7.4"
@@ -1388,14 +1368,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@near-js/biometric-ed25519@workspace:packages/biometric-ed25519":
+"@meer-js/biometric-ed25519@workspace:packages/biometric-ed25519":
   version: 0.0.0-use.local
-  resolution: "@near-js/biometric-ed25519@workspace:packages/biometric-ed25519"
+  resolution: "@meer-js/biometric-ed25519@workspace:packages/biometric-ed25519"
   dependencies:
     "@hexagon/base64": "npm:*"
     "@jest/globals": "npm:^29.7.0"
-    "@near-js/crypto": "workspace:*"
-    "@near-js/utils": "workspace:*"
+    "@meer-js/crypto": "workspace:*"
+    "@meer-js/utils": "workspace:*"
     "@noble/curves": "npm:1.2.0"
     "@noble/hashes": "npm:1.3.3"
     "@types/node": "npm:^22.7.4"
@@ -1411,25 +1391,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@near-js/crypto@npm:0.0.5":
-  version: 0.0.5
-  resolution: "@near-js/crypto@npm:0.0.5"
-  dependencies:
-    "@near-js/types": "npm:0.0.4"
-    bn.js: "npm:5.2.1"
-    borsh: "npm:^0.7.0"
-    tweetnacl: "npm:^1.0.1"
-  checksum: 10c0/3dc1bd9480f11195c1e3ad9e7e648b2aa6ac2bbef05b980483360d223acac10781ea9567e6f8cb4a79ff7e038d242f64ef0031e091960954a1e6cb880a29a487
-  languageName: node
-  linkType: hard
-
-"@near-js/crypto@workspace:*, @near-js/crypto@workspace:packages/crypto":
+"@meer-js/crypto@workspace:*, @meer-js/crypto@workspace:packages/crypto":
   version: 0.0.0-use.local
-  resolution: "@near-js/crypto@workspace:packages/crypto"
+  resolution: "@meer-js/crypto@workspace:packages/crypto"
   dependencies:
     "@jest/globals": "npm:^29.7.0"
-    "@near-js/types": "workspace:*"
-    "@near-js/utils": "workspace:*"
+    "@meer-js/types": "workspace:*"
+    "@meer-js/utils": "workspace:*"
     "@noble/curves": "npm:1.2.0"
     "@noble/hashes": "npm:^1.4.0"
     "@types/node": "npm:^22.7.4"
@@ -1444,23 +1412,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@near-js/keystores-browser@npm:0.0.5":
-  version: 0.0.5
-  resolution: "@near-js/keystores-browser@npm:0.0.5"
-  dependencies:
-    "@near-js/crypto": "npm:0.0.5"
-    "@near-js/keystores": "npm:0.0.5"
-  checksum: 10c0/ecfb43d30ce67eb577086c01505399f068608d6394b325d0387e30cf52387a9c0a8740ab8005f2cef30dfbe570e2e5f1b82158998e43d8653da0ef427d9a0c7f
-  languageName: node
-  linkType: hard
-
-"@near-js/keystores-browser@workspace:*, @near-js/keystores-browser@workspace:packages/keystores-browser":
+"@meer-js/keystores-browser@workspace:*, @meer-js/keystores-browser@workspace:packages/keystores-browser":
   version: 0.0.0-use.local
-  resolution: "@near-js/keystores-browser@workspace:packages/keystores-browser"
+  resolution: "@meer-js/keystores-browser@workspace:packages/keystores-browser"
   dependencies:
     "@jest/globals": "npm:^29.7.0"
-    "@near-js/crypto": "workspace:*"
-    "@near-js/keystores": "workspace:*"
+    "@meer-js/crypto": "workspace:*"
+    "@meer-js/keystores": "workspace:*"
     "@types/node": "npm:^22.7.4"
     jest: "npm:29.7.0"
     localstorage-memory: "npm:1.0.3"
@@ -1470,23 +1428,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@near-js/keystores-node@npm:0.0.5":
-  version: 0.0.5
-  resolution: "@near-js/keystores-node@npm:0.0.5"
-  dependencies:
-    "@near-js/crypto": "npm:0.0.5"
-    "@near-js/keystores": "npm:0.0.5"
-  checksum: 10c0/9832f3aee25c1954097d84a8089b7ac4ec69af16902b0b2bbd894975a79d822469414f5997f0427d8f3713b07e74184bd46011bbe1aab647590be32f5b5fd064
-  languageName: node
-  linkType: hard
-
-"@near-js/keystores-node@workspace:*, @near-js/keystores-node@workspace:packages/keystores-node":
+"@meer-js/keystores-node@workspace:*, @meer-js/keystores-node@workspace:packages/keystores-node":
   version: 0.0.0-use.local
-  resolution: "@near-js/keystores-node@workspace:packages/keystores-node"
+  resolution: "@meer-js/keystores-node@workspace:packages/keystores-node"
   dependencies:
     "@jest/globals": "npm:^29.7.0"
-    "@near-js/crypto": "workspace:*"
-    "@near-js/keystores": "workspace:*"
+    "@meer-js/crypto": "workspace:*"
+    "@meer-js/keystores": "workspace:*"
     "@types/node": "npm:^22.7.4"
     jest: "npm:29.7.0"
     rimraf: "npm:^6.0.1"
@@ -1495,24 +1443,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@near-js/keystores@npm:0.0.5":
-  version: 0.0.5
-  resolution: "@near-js/keystores@npm:0.0.5"
-  dependencies:
-    "@near-js/crypto": "npm:0.0.5"
-    "@near-js/types": "npm:0.0.4"
-  checksum: 10c0/ba1163e371c6188c47d31182e94f173297ab7ab0b01df2c014df33150857df084c2e0fbb56764c53a4c6d032a0c6c7de55e5f7119041782f2f3d916eed9d24c7
-  languageName: node
-  linkType: hard
-
-"@near-js/keystores@workspace:*, @near-js/keystores@workspace:packages/keystores":
+"@meer-js/keystores@workspace:*, @meer-js/keystores@workspace:packages/keystores":
   version: 0.0.0-use.local
-  resolution: "@near-js/keystores@workspace:packages/keystores"
+  resolution: "@meer-js/keystores@workspace:packages/keystores"
   dependencies:
     "@jest/globals": "npm:^29.7.0"
-    "@near-js/crypto": "workspace:*"
-    "@near-js/types": "workspace:*"
-    "@near-js/utils": "workspace:*"
+    "@meer-js/crypto": "workspace:*"
+    "@meer-js/types": "workspace:*"
+    "@meer-js/utils": "workspace:*"
     "@types/node": "npm:^22.7.4"
     jest: "npm:29.7.0"
     rimraf: "npm:6.0.1"
@@ -1521,9 +1459,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@near-js/monorepo@workspace:.":
+"@meer-js/monorepo@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@near-js/monorepo@workspace:."
+  resolution: "@meer-js/monorepo@workspace:."
   dependencies:
     "@changesets/changelog-github": "npm:0.4.6"
     "@changesets/cli": "npm:2.24.4"
@@ -1540,6 +1478,180 @@ __metadata:
     typescript: "npm:^5.6.2"
   languageName: unknown
   linkType: soft
+
+"@meer-js/providers@workspace:*, @meer-js/providers@workspace:packages/providers":
+  version: 0.0.0-use.local
+  resolution: "@meer-js/providers@workspace:packages/providers"
+  dependencies:
+    "@jest/globals": "npm:^29.7.0"
+    "@meer-js/transactions": "workspace:*"
+    "@meer-js/types": "workspace:*"
+    "@meer-js/utils": "workspace:*"
+    "@types/node": "npm:^22.7.4"
+    borsh: "npm:1.0.0"
+    exponential-backoff: "npm:^3.1.1"
+    isomorphic-unfetch: "npm:^3.1.0"
+    jest: "npm:29.7.0"
+    near-workspaces: "npm:3.5.0"
+    node-fetch: "npm:2.6.7"
+    rimraf: "npm:6.0.1"
+    ts-jest: "npm:29.1.5"
+    typescript: "npm:^5.6.2"
+  dependenciesMeta:
+    node-fetch:
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@meer-js/signers@workspace:*, @meer-js/signers@workspace:packages/signers":
+  version: 0.0.0-use.local
+  resolution: "@meer-js/signers@workspace:packages/signers"
+  dependencies:
+    "@jest/globals": "npm:^29.7.0"
+    "@meer-js/crypto": "workspace:*"
+    "@meer-js/keystores": "workspace:*"
+    "@noble/hashes": "npm:1.3.3"
+    "@types/node": "npm:^22.7.4"
+    jest: "npm:29.7.0"
+    rimraf: "npm:6.0.1"
+    ts-jest: "npm:29.1.5"
+    typescript: "npm:^5.6.2"
+  languageName: unknown
+  linkType: soft
+
+"@meer-js/transactions@workspace:*, @meer-js/transactions@workspace:packages/transactions":
+  version: 0.0.0-use.local
+  resolution: "@meer-js/transactions@workspace:packages/transactions"
+  dependencies:
+    "@jest/globals": "npm:^29.7.0"
+    "@meer-js/crypto": "workspace:*"
+    "@meer-js/keystores": "workspace:*"
+    "@meer-js/signers": "workspace:*"
+    "@meer-js/types": "workspace:*"
+    "@meer-js/utils": "workspace:*"
+    "@noble/hashes": "npm:1.3.3"
+    "@types/node": "npm:^22.7.4"
+    borsh: "npm:1.0.0"
+    jest: "npm:29.7.0"
+    rimraf: "npm:6.0.1"
+    ts-jest: "npm:29.1.5"
+    typescript: "npm:^5.6.2"
+  languageName: unknown
+  linkType: soft
+
+"@meer-js/types@workspace:*, @meer-js/types@workspace:packages/types":
+  version: 0.0.0-use.local
+  resolution: "@meer-js/types@workspace:packages/types"
+  dependencies:
+    "@types/node": "npm:^22.7.4"
+    jest: "npm:29.7.0"
+    rimraf: "npm:6.0.1"
+    ts-jest: "npm:29.1.5"
+    typescript: "npm:^5.6.2"
+  languageName: unknown
+  linkType: soft
+
+"@meer-js/utils@workspace:*, @meer-js/utils@workspace:packages/utils":
+  version: 0.0.0-use.local
+  resolution: "@meer-js/utils@workspace:packages/utils"
+  dependencies:
+    "@jest/globals": "npm:^29.7.0"
+    "@meer-js/types": "workspace:*"
+    "@types/node": "npm:^22.7.4"
+    bs58: "npm:4.0.0"
+    depd: "npm:2.0.0"
+    jest: "npm:29.7.0"
+    mustache: "npm:4.0.0"
+    rimraf: "npm:6.0.1"
+    ts-jest: "npm:29.1.5"
+    typescript: "npm:^5.6.2"
+  languageName: unknown
+  linkType: soft
+
+"@meer-js/wallet-account@workspace:*, @meer-js/wallet-account@workspace:packages/wallet-account":
+  version: 0.0.0-use.local
+  resolution: "@meer-js/wallet-account@workspace:packages/wallet-account"
+  dependencies:
+    "@jest/globals": "npm:^29.7.0"
+    "@meer-js/accounts": "workspace:*"
+    "@meer-js/crypto": "workspace:*"
+    "@meer-js/keystores": "workspace:*"
+    "@meer-js/providers": "workspace:*"
+    "@meer-js/signers": "workspace:*"
+    "@meer-js/transactions": "workspace:*"
+    "@meer-js/types": "workspace:*"
+    "@meer-js/utils": "workspace:*"
+    "@types/node": "npm:^22.7.4"
+    borsh: "npm:1.0.0"
+    jest: "npm:29.7.0"
+    localstorage-memory: "npm:1.0.3"
+    rimraf: "npm:6.0.1"
+    ts-jest: "npm:29.1.5"
+    typescript: "npm:^5.6.2"
+  languageName: unknown
+  linkType: soft
+
+"@near-js/accounts@npm:0.1.4":
+  version: 0.1.4
+  resolution: "@near-js/accounts@npm:0.1.4"
+  dependencies:
+    "@near-js/crypto": "npm:0.0.5"
+    "@near-js/providers": "npm:0.0.7"
+    "@near-js/signers": "npm:0.0.5"
+    "@near-js/transactions": "npm:0.2.1"
+    "@near-js/types": "npm:0.0.4"
+    "@near-js/utils": "npm:0.0.4"
+    ajv: "npm:^8.11.2"
+    ajv-formats: "npm:^2.1.1"
+    bn.js: "npm:5.2.1"
+    borsh: "npm:^0.7.0"
+    depd: "npm:^2.0.0"
+    near-abi: "npm:0.1.1"
+  checksum: 10c0/fc9771929dd6cda7841ca2af8cd577ad9bc267107683e5dad4e943d557c0d005417da651d8197a6912898a05ba3001a9439d9b70be211a855f9ff8059b9a57cd
+  languageName: node
+  linkType: hard
+
+"@near-js/crypto@npm:0.0.5":
+  version: 0.0.5
+  resolution: "@near-js/crypto@npm:0.0.5"
+  dependencies:
+    "@near-js/types": "npm:0.0.4"
+    bn.js: "npm:5.2.1"
+    borsh: "npm:^0.7.0"
+    tweetnacl: "npm:^1.0.1"
+  checksum: 10c0/3dc1bd9480f11195c1e3ad9e7e648b2aa6ac2bbef05b980483360d223acac10781ea9567e6f8cb4a79ff7e038d242f64ef0031e091960954a1e6cb880a29a487
+  languageName: node
+  linkType: hard
+
+"@near-js/keystores-browser@npm:0.0.5":
+  version: 0.0.5
+  resolution: "@near-js/keystores-browser@npm:0.0.5"
+  dependencies:
+    "@near-js/crypto": "npm:0.0.5"
+    "@near-js/keystores": "npm:0.0.5"
+  checksum: 10c0/ecfb43d30ce67eb577086c01505399f068608d6394b325d0387e30cf52387a9c0a8740ab8005f2cef30dfbe570e2e5f1b82158998e43d8653da0ef427d9a0c7f
+  languageName: node
+  linkType: hard
+
+"@near-js/keystores-node@npm:0.0.5":
+  version: 0.0.5
+  resolution: "@near-js/keystores-node@npm:0.0.5"
+  dependencies:
+    "@near-js/crypto": "npm:0.0.5"
+    "@near-js/keystores": "npm:0.0.5"
+  checksum: 10c0/9832f3aee25c1954097d84a8089b7ac4ec69af16902b0b2bbd894975a79d822469414f5997f0427d8f3713b07e74184bd46011bbe1aab647590be32f5b5fd064
+  languageName: node
+  linkType: hard
+
+"@near-js/keystores@npm:0.0.5":
+  version: 0.0.5
+  resolution: "@near-js/keystores@npm:0.0.5"
+  dependencies:
+    "@near-js/crypto": "npm:0.0.5"
+    "@near-js/types": "npm:0.0.4"
+  checksum: 10c0/ba1163e371c6188c47d31182e94f173297ab7ab0b01df2c014df33150857df084c2e0fbb56764c53a4c6d032a0c6c7de55e5f7119041782f2f3d916eed9d24c7
+  languageName: node
+  linkType: hard
 
 "@near-js/providers@npm:0.0.7":
   version: 0.0.7
@@ -1559,30 +1671,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@near-js/providers@workspace:*, @near-js/providers@workspace:packages/providers":
-  version: 0.0.0-use.local
-  resolution: "@near-js/providers@workspace:packages/providers"
-  dependencies:
-    "@jest/globals": "npm:^29.7.0"
-    "@near-js/transactions": "workspace:*"
-    "@near-js/types": "workspace:*"
-    "@near-js/utils": "workspace:*"
-    "@types/node": "npm:^22.7.4"
-    borsh: "npm:1.0.0"
-    exponential-backoff: "npm:^3.1.1"
-    isomorphic-unfetch: "npm:^3.1.0"
-    jest: "npm:29.7.0"
-    near-workspaces: "npm:3.5.0"
-    node-fetch: "npm:2.6.7"
-    rimraf: "npm:6.0.1"
-    ts-jest: "npm:29.1.5"
-    typescript: "npm:^5.6.2"
-  dependenciesMeta:
-    node-fetch:
-      optional: true
-  languageName: unknown
-  linkType: soft
-
 "@near-js/signers@npm:0.0.5":
   version: 0.0.5
   resolution: "@near-js/signers@npm:0.0.5"
@@ -1593,22 +1681,6 @@ __metadata:
   checksum: 10c0/46c3d8eeb254a501c6adb6946743e1c8c374264e3bd231b787885718286048f95db6be384642050a24300c21645f67b8134c32c49a9e859f93074dfb71781353
   languageName: node
   linkType: hard
-
-"@near-js/signers@workspace:*, @near-js/signers@workspace:packages/signers":
-  version: 0.0.0-use.local
-  resolution: "@near-js/signers@workspace:packages/signers"
-  dependencies:
-    "@jest/globals": "npm:^29.7.0"
-    "@near-js/crypto": "workspace:*"
-    "@near-js/keystores": "workspace:*"
-    "@noble/hashes": "npm:1.3.3"
-    "@types/node": "npm:^22.7.4"
-    jest: "npm:29.7.0"
-    rimraf: "npm:6.0.1"
-    ts-jest: "npm:29.1.5"
-    typescript: "npm:^5.6.2"
-  languageName: unknown
-  linkType: soft
 
 "@near-js/transactions@npm:0.2.1":
   version: 0.2.1
@@ -1625,26 +1697,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@near-js/transactions@workspace:*, @near-js/transactions@workspace:packages/transactions":
-  version: 0.0.0-use.local
-  resolution: "@near-js/transactions@workspace:packages/transactions"
-  dependencies:
-    "@jest/globals": "npm:^29.7.0"
-    "@near-js/crypto": "workspace:*"
-    "@near-js/keystores": "workspace:*"
-    "@near-js/signers": "workspace:*"
-    "@near-js/types": "workspace:*"
-    "@near-js/utils": "workspace:*"
-    "@noble/hashes": "npm:1.3.3"
-    "@types/node": "npm:^22.7.4"
-    borsh: "npm:1.0.0"
-    jest: "npm:29.7.0"
-    rimraf: "npm:6.0.1"
-    ts-jest: "npm:29.1.5"
-    typescript: "npm:^5.6.2"
-  languageName: unknown
-  linkType: soft
-
 "@near-js/types@npm:0.0.4":
   version: 0.0.4
   resolution: "@near-js/types@npm:0.0.4"
@@ -1653,18 +1705,6 @@ __metadata:
   checksum: 10c0/c06d00db45649e156fe857f5c59248346bf100d870b08a0a69341a2cb1533271eacfb66d715642ba7cf47c74228b82a77be8194e3f66df5e45e6ca793266b7ea
   languageName: node
   linkType: hard
-
-"@near-js/types@workspace:*, @near-js/types@workspace:packages/types":
-  version: 0.0.0-use.local
-  resolution: "@near-js/types@workspace:packages/types"
-  dependencies:
-    "@types/node": "npm:^22.7.4"
-    jest: "npm:29.7.0"
-    rimraf: "npm:6.0.1"
-    ts-jest: "npm:29.1.5"
-    typescript: "npm:^5.6.2"
-  languageName: unknown
-  linkType: soft
 
 "@near-js/utils@npm:0.0.4":
   version: 0.0.4
@@ -1677,23 +1717,6 @@ __metadata:
   checksum: 10c0/e6b20027fc79f45696d4d849de9b0ad8282be1b76a0de416e314e5dba927175697a18ee7816471c6736e0083218223d88718eac9e8ef862e682ad4351b1bd3e9
   languageName: node
   linkType: hard
-
-"@near-js/utils@workspace:*, @near-js/utils@workspace:packages/utils":
-  version: 0.0.0-use.local
-  resolution: "@near-js/utils@workspace:packages/utils"
-  dependencies:
-    "@jest/globals": "npm:^29.7.0"
-    "@near-js/types": "workspace:*"
-    "@types/node": "npm:^22.7.4"
-    bs58: "npm:4.0.0"
-    depd: "npm:2.0.0"
-    jest: "npm:29.7.0"
-    mustache: "npm:4.0.0"
-    rimraf: "npm:6.0.1"
-    ts-jest: "npm:29.1.5"
-    typescript: "npm:^5.6.2"
-  languageName: unknown
-  linkType: soft
 
 "@near-js/wallet-account@npm:0.0.7":
   version: 0.0.7
@@ -1711,29 +1734,6 @@ __metadata:
   checksum: 10c0/94e304292d2c08d2bc55f23dc8a9087fcb5af3e042b4a288d61373562b5ad6f717cb1051862eca85b87f92da6698f98bfcd4c75b90ffecef1717633491b220e8
   languageName: node
   linkType: hard
-
-"@near-js/wallet-account@workspace:*, @near-js/wallet-account@workspace:packages/wallet-account":
-  version: 0.0.0-use.local
-  resolution: "@near-js/wallet-account@workspace:packages/wallet-account"
-  dependencies:
-    "@jest/globals": "npm:^29.7.0"
-    "@near-js/accounts": "workspace:*"
-    "@near-js/crypto": "workspace:*"
-    "@near-js/keystores": "workspace:*"
-    "@near-js/providers": "workspace:*"
-    "@near-js/signers": "workspace:*"
-    "@near-js/transactions": "workspace:*"
-    "@near-js/types": "workspace:*"
-    "@near-js/utils": "workspace:*"
-    "@types/node": "npm:^22.7.4"
-    borsh: "npm:1.0.0"
-    jest: "npm:29.7.0"
-    localstorage-memory: "npm:1.0.3"
-    rimraf: "npm:6.0.1"
-    ts-jest: "npm:29.1.5"
-    typescript: "npm:^5.6.2"
-  languageName: unknown
-  linkType: soft
 
 "@noble/curves@npm:1.2.0":
   version: 1.2.0
@@ -6475,17 +6475,17 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "near-api-js@workspace:packages/near-api-js"
   dependencies:
-    "@near-js/accounts": "workspace:*"
-    "@near-js/crypto": "workspace:*"
-    "@near-js/keystores": "workspace:*"
-    "@near-js/keystores-browser": "workspace:*"
-    "@near-js/keystores-node": "workspace:*"
-    "@near-js/providers": "workspace:*"
-    "@near-js/signers": "workspace:*"
-    "@near-js/transactions": "workspace:*"
-    "@near-js/types": "workspace:*"
-    "@near-js/utils": "workspace:*"
-    "@near-js/wallet-account": "workspace:*"
+    "@meer-js/accounts": "workspace:*"
+    "@meer-js/crypto": "workspace:*"
+    "@meer-js/keystores": "workspace:*"
+    "@meer-js/keystores-browser": "workspace:*"
+    "@meer-js/keystores-node": "workspace:*"
+    "@meer-js/providers": "workspace:*"
+    "@meer-js/signers": "workspace:*"
+    "@meer-js/transactions": "workspace:*"
+    "@meer-js/types": "workspace:*"
+    "@meer-js/utils": "workspace:*"
+    "@meer-js/wallet-account": "workspace:*"
     "@noble/curves": "npm:1.2.0"
     "@types/http-errors": "npm:1.6.1"
     "@types/node": "npm:^22.7.4"

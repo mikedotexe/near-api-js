@@ -1,1 +1,1 @@
-export { Near, NearConfig } from '@near-js/wallet-account';
+export { Near, NearConfig } from '@meer-js/wallet-account';

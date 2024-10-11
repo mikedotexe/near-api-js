@@ -1,5 +1,5 @@
-import { BlockReference, ContractCodeView } from '@near-js/types';
-import { printTxOutcomeLogs } from '@near-js/utils';
+import { BlockReference, ContractCodeView } from '@meer-js/types';
+import { printTxOutcomeLogs } from '@meer-js/utils';
 import { FunctionCallOptions } from '../interface.js';
 import { Storage } from './storage.js';
 import { Runtime } from './runtime.js';

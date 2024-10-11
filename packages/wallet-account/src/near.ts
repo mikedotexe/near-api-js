@@ -13,12 +13,12 @@ import {
     Connection,
     LocalAccountCreator,
     UrlAccountCreator,
-} from '@near-js/accounts';
-import { PublicKey } from '@near-js/crypto';
-import { KeyStore } from '@near-js/keystores';
-import { Signer } from '@near-js/signers';
-import { LoggerService } from '@near-js/utils';
-import { Provider } from '@near-js/providers';
+} from '@meer-js/accounts';
+import { PublicKey } from '@meer-js/crypto';
+import { KeyStore } from '@meer-js/keystores';
+import { Signer } from '@meer-js/signers';
+import { LoggerService } from '@meer-js/utils';
+import { Provider } from '@meer-js/providers';
 
 export interface NearConfig {
     /** Holds {@link "@near-js/crypto".key_pair.KeyPair | KeyPair} for signing transactions */

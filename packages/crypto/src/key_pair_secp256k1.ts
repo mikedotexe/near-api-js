@@ -5,7 +5,7 @@ import { PublicKey } from './public_key.js';
 import secp256k1 from 'secp256k1';
 import randombytes from 'randombytes';
 import type { KeyPairString } from './types.js';
-import { baseDecode, baseEncode } from '@near-js/utils';
+import { baseDecode, baseEncode } from '@meer-js/utils';
 /**
  * This class provides key pair functionality for secp256k1 curve:
  * generating key pairs, encoding key pairs, signing and verifying.

@@ -1,6 +1,6 @@
 {
-  "name": "@near-js/types",
-  "version": "0.3.0",
+  "name": "@meer-js/types",
+  "version": "6.6.6",
   "description": "TypeScript types for working with the Near JS API",
   "types": "./dist/esm/index.d.ts",
   "main": "./dist/cjs/index.js",

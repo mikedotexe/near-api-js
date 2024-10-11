@@ -1,4 +1,4 @@
-import { PublicKey } from '@near-js/crypto';
+import { PublicKey } from '@meer-js/crypto';
 import unfetch from 'isomorphic-unfetch';
 
 import { Connection } from './connection.js';

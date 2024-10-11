@@ -1,5 +1,5 @@
-import { Provider } from '@near-js/providers';
-import { Signer } from '@near-js/signers';
+import { Provider } from '@meer-js/providers';
+import { Signer } from '@meer-js/signers';
 
 export enum MultisigDeleteRequestRejectionError {
   CANNOT_DESERIALIZE_STATE = 'Cannot deserialize the contract state',

@@ -1,5 +1,5 @@
 import { beforeAll, describe, expect, it } from '@jest/globals';
-import { KeyPairEd25519 } from '@near-js/crypto';
+import { KeyPairEd25519 } from '@meer-js/crypto';
 
 import { InMemoryKeyStore, MergeKeyStore } from '../src';
 import { shouldStoreAndRetrieveKeys } from './keystore_common';
