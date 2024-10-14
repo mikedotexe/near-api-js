@@ -1,10 +1,5 @@
-import type { KeyPairString } from './types.js';
-import { PublicKey } from './public_key.js';
-
-export interface ISignatureCrypto {
-    signature: Uint8Array;
-    publicKey: PublicKey;
-}
+import type { KeyPairString, PublicKey } from '@meer-js/types';
+import type { ISignatureCrypto } from '@meer-js/types';
 
 export abstract class KeyPairBase {
     abstract sign(message: Uint8Array): ISignatureCrypto;

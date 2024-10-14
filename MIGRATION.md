@@ -16,7 +16,7 @@ import {
     Connection,
     Contract,
     multisig,
-} from 'near-api-js';
+} from 'meer-api-js';
 const {
     AccountCreator,
     LocalAccountCreator,
@@ -65,7 +65,7 @@ import {
 import {
     KeyPair,
     utils,
-} from 'near-api-js';
+} from 'meer-api-js';
 const {
     KeyPairEd25519,
     PublicKey,
@@ -86,7 +86,7 @@ import {
 ```ts
 import {
     keyStores,
-} from 'near-api-js';
+} from 'meer-api-js';
 const {
     KeyStore,
     InMemoryKeyStore,
@@ -125,7 +125,7 @@ import {
 import {
     providers,
     utils,
-} from 'near-api-js';
+} from 'meer-api-js';
 const {
     ErrorContext,
     ExecutionOutcomeWithId,
@@ -174,7 +174,7 @@ import {
 import {
     InMemorySigner,
     Signer,
-} from 'near-api-js';
+} from 'meer-api-js';
 ```
 
 `@near-js/providers`
@@ -190,7 +190,7 @@ import {
 ```ts
 import {
     transactions,
-} from 'near-api-js';
+} from 'meer-api-js';
 const {
     addKey,
     createAccount,
@@ -271,7 +271,7 @@ import {
     DEFAULT_FUNCTION_CALL_GAS,
     utils,
     validators,
-} from 'near-api-js';
+} from 'meer-api-js';
 const {
     format,
     logWarning,

@@ -4,7 +4,7 @@ import fs from 'fs';
 import path from 'path';
 import { promisify as _promisify } from 'util';
 
-/* remove for versions not referenced by near-api-js */
+/* remove for versions not referenced by meer-api-js */
 const promisify = (fn: any) => {
     if (!fn) {
         return () => {
@@ -57,15 +57,15 @@ export async function readKeyFile(filename: string): Promise<[string, KeyPair]> 
 
 /**
  * This class is used to store keys on the file system.
- * 
+ *
  * @see [https://docs.near.org/docs/develop/front-end/naj-quick-reference#key-store](https://docs.near.org/docs/develop/front-end/naj-quick-reference#key-store)
  * @example
  * ```js
  * const { homedir } = require('os');
- * const { connect, keyStores } = require('near-api-js');
- * 
+ * const { connect, keyStores } = require('meer-api-js');
+ *
  * const keyStore = new keyStores.UnencryptedFileSystemKeyStore(`${homedir()}/.near-credentials`);
- * const config = { 
+ * const config = {
  *   keyStore, // instance of UnencryptedFileSystemKeyStore
  *   networkId: 'testnet',
  *   nodeUrl: 'https://rpc.testnet.near.org',
@@ -73,7 +73,7 @@ export async function readKeyFile(filename: string): Promise<[string, KeyPair]> 
  *   helperUrl: 'https://helper.testnet.near.org',
  *   explorerUrl: 'https://explorer.testnet.near.org'
  * };
- * 
+ *
  * // inside an async function
  * const near = await connect(config)
  * ```

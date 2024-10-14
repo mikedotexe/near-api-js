@@ -1,5 +1,5 @@
-import { getTransactionLastResult, Logger } from '@meer-js/utils";
-import { ArgumentTypeError, PositionalArgsError } from '@meer-js/types";
+import { getTransactionLastResult, Logger } from '@meer-js/utils';
+import { ArgumentTypeError, PositionalArgsError } from '@meer-js/types';
 import { LocalViewExecution } from "./local-view-execution/index.js";
 import validator from "is-my-json-valid";
 import depd from "depd";
@@ -128,7 +128,7 @@ export interface ContractMethods {
  * @see [https://docs.near.org/tools/near-api-js/quick-reference#contract](https://docs.near.org/tools/near-api-js/quick-reference#contract)
  * @example
  * ```js
- * import { Contract } from 'near-api-js';
+ * import { Contract } from 'meer-api-js';
  *
  * async function contractExample() {
  *   const methodOptions = {

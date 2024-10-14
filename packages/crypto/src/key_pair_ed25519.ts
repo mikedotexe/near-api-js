@@ -4,9 +4,7 @@ import randombytes from 'randombytes';
 
 import { KeySize, KeyType } from './constants.js';
 import { KeyPairBase } from './key_pair_base.js';
-import { PublicKey } from './public_key.js';
-import type { ISignatureCrypto } from './key_pair_base.js';
-import type { KeyPairString } from './types.js';
+import type { ISignatureCrypto, PublicKey, KeyPairString } from '@meer-js/types';
 
 /**
  * This class provides key pair functionality for Ed25519 curve:

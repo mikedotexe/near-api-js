@@ -35,7 +35,7 @@ import {
 import { Connection } from './connection.js';
 import { viewFunction, viewState } from './utils.js';
 import { ChangeFunctionCallOptions, IntoConnection, ViewFunctionCallOptions } from './interface.js';
-import {publicKeyFrom} from '@meer-js/crypto/src/public_key";
+import { publicKeyFrom } from '@meer-js/crypto';
 
 const {
     addKey,

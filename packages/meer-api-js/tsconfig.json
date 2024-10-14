@@ -7,7 +7,7 @@
     "declarationMap": true,
     "types": ["node"],
     "paths": {
-      "@near-js/*": ["../*/src/index.ts"]
+      "@meer-js/*": ["../*"]
     }
   },
   "include": ["src/**/*"]

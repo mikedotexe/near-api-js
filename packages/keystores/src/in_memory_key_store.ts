@@ -8,7 +8,7 @@ import { KeyPairString } from '@meer-js/crypto';
  * @see [https://docs.near.org/docs/develop/front-end/naj-quick-reference#key-store](https://docs.near.org/docs/develop/front-end/naj-quick-reference#key-store)
  * @example
  * ```js
- * import { connect, keyStores, utils } from 'near-api-js';
+ * import { connect, keyStores, utils } from 'meer-api-js';
  *
  * const privateKey = '.......';
  * const keyPair = utils.KeyPair.fromString(privateKey);

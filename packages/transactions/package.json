@@ -7,8 +7,6 @@
   "module": "./dist/esm/transactions/src/index.js",
   "type": "module",
   "scripts": {
-    "build": "yarn compile:esm",
-    "postbuild": "yarn compile:cjs",
     "compile:esm": "tsc -p tsconfig.esm.json",
     "compile:cjs": "tsc -p tsconfig.cjs.json",
     "lint": "eslint -c ../../.eslintrc.ts.yml src/**/*.ts test/**/*.ts --no-eslintrc",
@@ -30,11 +28,11 @@
     "@jest/globals": "^29.7.0",
     "@meer-js/keystores": "workspace:*",
     "@meer-js/types": "workspace:*",
-    "@types/node": "^22.7.4",
+    "@types/node": "*",
     "jest": "29.7.0",
     "rimraf": "6.0.1",
     "ts-jest": "29.1.5",
-    "typescript": "^5.6.2"
+    "typescript": "^5.6.0"
   },
   "files": [
     "./dist/esm",

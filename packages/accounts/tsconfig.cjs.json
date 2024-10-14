@@ -11,7 +11,7 @@
     "skipLibCheck": true,
     "resolveJsonModule": true,
     "paths": {
-      "@near-js/*": ["../*/src/index.ts"]
+      "@meer-js/*": ["../*/src/index.ts"]
     }
   },
   "include": ["src/**/*"],

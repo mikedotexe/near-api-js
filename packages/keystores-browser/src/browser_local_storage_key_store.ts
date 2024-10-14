@@ -1,18 +1,18 @@
 import { KeyPair } from '@meer-js/crypto';
 import { KeyStore } from '@meer-js/keystores';
 
-const LOCAL_STORAGE_KEY_PREFIX = 'near-api-js:keystore:';
+const LOCAL_STORAGE_KEY_PREFIX = 'meer-api-js:keystore:';
 
 /**
  * This class is used to store keys in the browsers local storage.
- * 
+ *
  * @see [https://docs.near.org/docs/develop/front-end/naj-quick-reference#key-store](https://docs.near.org/docs/develop/front-end/naj-quick-reference#key-store)
  * @example
  * ```js
- * import { connect, keyStores } from 'near-api-js';
- * 
+ * import { connect, keyStores } from 'meer-api-js';
+ *
  * const keyStore = new keyStores.BrowserLocalStorageKeyStore();
- * const config = { 
+ * const config = {
  *   keyStore, // instance of BrowserLocalStorageKeyStore
  *   networkId: 'testnet',
  *   nodeUrl: 'https://rpc.testnet.near.org',
@@ -20,7 +20,7 @@ const LOCAL_STORAGE_KEY_PREFIX = 'near-api-js:keystore:';
  *   helperUrl: 'https://helper.testnet.near.org',
  *   explorerUrl: 'https://explorer.testnet.near.org'
  * };
- * 
+ *
  * // inside an async function
  * const near = await connect(config)
  * ```
@@ -33,7 +33,7 @@ export class BrowserLocalStorageKeyStore extends KeyStore {
 
     /**
      * @param localStorage defaults to window.localStorage
-     * @param prefix defaults to `near-api-js:keystore:`
+     * @param prefix defaults to `meer-api-js:keystore:`
      */
     constructor(localStorage: any = window.localStorage, prefix = LOCAL_STORAGE_KEY_PREFIX) {
         super();
@@ -122,7 +122,7 @@ export class BrowserLocalStorageKeyStore extends KeyStore {
      * Helper function to retrieve a local storage key
      * @param networkId The targeted network. (ex. default, betanet, etc…)
      * @param accountId The NEAR account tied to the storage key that's sought
-     * @returns {string} An example might be: `near-api-js:keystore:near-friend:default`
+     * @returns {string} An example might be: `meer-api-js:keystore:near-friend:default`
      */
     private storageKeyForSecretKey(networkId: string, accountId: string): string {
         return `${this.prefix}${accountId}:${networkId}`;

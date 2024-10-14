@@ -1,8 +1,11 @@
 import { baseEncode, baseDecode } from '@meer-js/utils';
-import { ed25519 } from '@noble/curves/ed25519';
+import { ed25519 } from '@noble/curves/ed25519.js';
 import secp256k1 from 'secp256k1';
 
 import { KeySize, KeyType } from './constants.js';
+import { PublicKey } from "@meer-js/types";
+// import {PublicKey} from "borsh/borsh-ts/test/fuzz/transaction-example/key_pair";
+
 
 function keyTypeToStr(keyType: KeyType): string {
   switch (keyType) {
@@ -25,22 +28,6 @@ function strToKeyType(keyType: string): KeyType {
       throw new Error(`Unknown key type ${keyType}`);
   }
 }
-
-interface ED25519PublicKey {
-  keyType: KeyType.ED25519;
-  data: Uint8Array;
-
-  verify?: (message: Uint8Array, signature: Uint8Array) => boolean;
-}
-
-interface SECP256K1PublicKey {
-  keyType: KeyType.SECP256K1;
-  data: Uint8Array;
-
-  verify?: (message: Uint8Array, signature: Uint8Array) => boolean;
-}
-
-export type PublicKey = ED25519PublicKey | SECP256K1PublicKey;
 
 /**
  * Creates a PublicKey instance from a string or an existing PublicKey instance.

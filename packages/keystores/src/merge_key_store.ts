@@ -7,7 +7,7 @@ import { KeyStore } from './keystore.js';
  * @example
  * ```js
  * const { homedir } = require('os');
- * import { connect, keyStores, utils } from 'near-api-js';
+ * import { connect, keyStores, utils } from 'meer-api-js';
  *
  * const privateKey = '.......';
  * const keyPair = utils.KeyPair.fromString(privateKey);

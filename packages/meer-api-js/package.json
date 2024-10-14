@@ -1,14 +1,12 @@
 {
-    "name": "near-api-js",
+    "name": "meer-api-js",
     "description": "JavaScript library to interact with NEAR Protocol via RPC API",
     "version": "6.6.6",
-    "types": "./dist/esm/near-api-js/src/index.d.ts",
-    "main": "./dist/cjs/near-api-js/src/index.js",
-    "module": "./dist/esm/near-api-js/src/index.js",
+    "types": "./dist/esm/meer-api-js/src/index.d.ts",
+    "main": "./dist/cjs/meer-api-js/src/index.js",
+    "module": "./dist/esm/meer-api-js/src/index.js",
     "type": "module",
     "scripts": {
-        "build": "yarn compile:esm",
-        "postbuild": "yarn compile:cjs",
         "compile:esm": "tsc -p tsconfig.esm.json",
         "compile:cjs": "tsc -p tsconfig.cjs.json",
         "test": "jest test --passWithNoTests",
@@ -18,13 +16,34 @@
         "fuzz": "jsfuzz test/fuzz/borsh-roundtrip.js test/fuzz/corpus/",
         "clean": "yarn rimraf dist"
     },
+    "peerDependencies": {
+        "@meer-js/accounts": "workspace:*",
+        "@meer-js/crypto": "workspace:*",
+        "@meer-js/keystores": "workspace:*",
+        "@meer-js/keystores-browser": "workspace:*",
+        "@meer-js/keystores-node": "workspace:*",
+        "@meer-js/providers": "workspace:*",
+        "@meer-js/signers": "workspace:*",
+        "@meer-js/transactions": "workspace:*",
+        "@meer-js/types": "workspace:*",
+        "@meer-js/utils": "workspace:*",
+        "@meer-js/wallet-account": "workspace:*"
+    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/near/near-api-js.git"
     },
     "homepage": "https://github.com/near/near-api-js",
-    "browser": "./dist/esm/near-api-js/src/browser-index.js",
+    "browser": "./dist/esm/meer-api-js/src/browser-index.js",
     "dependencies": {
+        "@noble/curves": "1.2.0",
+        "borsh": "1.0.0",
+        "depd": "2.0.0",
+        "http-errors": "1.7.2",
+        "near-abi": "0.1.1",
+        "node-fetch": "2.6.7"
+    },
+    "devDependencies": {
         "@meer-js/accounts": "workspace:*",
         "@meer-js/crypto": "workspace:*",
         "@meer-js/keystores": "workspace:*",
@@ -36,16 +55,8 @@
         "@meer-js/types": "workspace:*",
         "@meer-js/utils": "workspace:*",
         "@meer-js/wallet-account": "workspace:*",
-        "@noble/curves": "1.2.0",
-        "borsh": "1.0.0",
-        "depd": "2.0.0",
-        "http-errors": "1.7.2",
-        "near-abi": "0.1.1",
-        "node-fetch": "2.6.7"
-    },
-    "devDependencies": {
         "@types/http-errors": "1.6.1",
-        "@types/node": "^22.7.4",
+        "@types/node": "*",
         "bs58": "4.0.0",
         "concurrently": "7.3.0",
         "in-publish": "2.0.0",
@@ -55,7 +66,7 @@
         "rimraf": "^6.0.1",
         "semver": "7.1.1",
         "ts-jest": "29.1.5",
-        "typescript": "^5.6.2"
+        "typescript": "^5.6.0"
     },
     "keywords": [],
     "license": "(MIT AND Apache-2.0)",
@@ -65,8 +76,8 @@
     ],
     "exports": {
         ".": {
-            "require": "./dist/cjs/near-api-js/src/index.js",
-            "import": "./dist/esm/near-api-js/src/index.js"
+            "require": "./dist/cjs/meer-api-js/src/index.js",
+            "import": "./dist/esm/meer-api-js/src/index.js"
         }
     },
     "author": "NEAR Inc"

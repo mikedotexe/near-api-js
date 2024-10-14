@@ -14,7 +14,7 @@ import {
     MULTISIG_GAS,
 } from './constants.js';
 import { MultisigStateStatus } from './types.js';
-import {publicKeyFrom} from '@meer-js/crypto/src/public_key";
+import {publicKeyFrom} from '@meer-js/crypto';
 
 const { addKey, deleteKey, deployContract, fullAccessKey, functionCall, functionCallAccessKey } = actionCreators;
 

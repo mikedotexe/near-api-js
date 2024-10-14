@@ -1,10 +1,8 @@
 import { KeySize, KeyType } from './constants.js';
 import { KeyPairBase } from './key_pair_base.js';
-import type { ISignatureCrypto } from './key_pair_base.js';
-import { PublicKey } from './public_key.js';
+import type { ISignatureCrypto, KeyPairString, PublicKey } from '@meer-js/types';
 import secp256k1 from 'secp256k1';
 import randombytes from 'randombytes';
-import type { KeyPairString } from './types.js';
 import { baseDecode, baseEncode } from '@meer-js/utils';
 /**
  * This class provides key pair functionality for secp256k1 curve:
